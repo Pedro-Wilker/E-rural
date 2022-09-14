@@ -1,0 +1,102 @@
+main {
+    width: 100%;
+    min-height: 100hv;
+}
+
+.grid {
+    width: 100%;
+}
+
+.bar {
+    width: 100%;
+    height: 80px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding: 3px 4px;
+}
+
+.bar img{
+    width: 12%;
+    padding: 20px ;
+    position:absolute;
+}
+
+.naveg {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(1, 83, 1);
+    display: block;
+}
+
+.home {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: rgb(243, 239, 239);
+    padding: 8px;
+}
+
+.home a {
+    color: rgb(243, 239, 239);
+    text-decoration: none;
+}
+
+.btn-login {
+    background-color: #c9c9c9;
+    border-radius: 10px;
+    padding: 15px;
+    color: #5c7405;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100px;
+    margin: 15px auto;
+    position: relative;
+}
+
+.container {
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    width: 70%;
+    margin: 50px auto;
+    background-color: rgb(1, 1, 12);
+    border-radius: 2px;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+
+}
+.box-1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 201, 0);
+}
+
+.box-2{
+    width: 100%;
+    height: 100%;
+    background-color: #5c7405;
+}
+
+.box-3{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.box-4{
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+}
+.user{
+    font-size: 2em;
+    color: #fff;
+}
