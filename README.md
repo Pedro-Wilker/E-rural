@@ -1,1 +1,1 @@
-# E-rural
+# Erural
