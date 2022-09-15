@@ -63,8 +63,7 @@ main {
 }
 
 .container {
-  justify-content: space-around;
-  align-items: center;
+  display: flex;
   height: 600px;
   width: 70%;
   margin: 50px auto;
@@ -76,7 +75,6 @@ main {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  border: 5px solid black;
 }
 .box-1 {
   width: 100%;
@@ -135,12 +133,58 @@ main {
   align-items: center;
 }
 .btn-voltar {
-  background-color: #d81111;
+  background-color: rgb(238, 225, 225);
   border-radius: 10px;
   padding: 15px;
-  color: #000000;
+  color: #228b02;
   cursor: pointer;
   font-size: 1em;
   margin: 0 100px;
   width: 100px;
+  border: 2px solid black;
+}
+
+.chat-text {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  background-color: #fff;
+  border: 2px solid #c06007;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#chat {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chat-text input {
+  width: 100%;
+  border: 1px solid #ddd;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.btn-message {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(238, 225, 225);
+  color: #228b02;
+  cursor: pointer;
+}
+
+.messages {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  padding: 20px;
 }
