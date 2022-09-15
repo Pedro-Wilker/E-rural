@@ -1,5 +1,5 @@
-const spanPlayer = document.querySelector('.user');
+const spanUser = document.getElementsByClassName('user');
 
-spanPlayer.innerHTML = localStorage.getItem('player');
+spanUser.innerHTML = localStorage.getItem('User');
 
 console.log(spanUser);
